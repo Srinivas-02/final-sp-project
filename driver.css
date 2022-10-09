@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+body{
+    background-color:whitesmoke;
+}
+header{
+    display: flex;
+    flex-flow: row;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 90px 15px 90px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+header:hover{
+    background-color: lightblue;
+    transition: .5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+header>h1{
+    font-family: 'pacifico', cursive;
+    color: lightcoral;
+    font-weight:normal;
+    font-size: 44px;
+    padding-left: 20px;
+}
+.navs{
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+}
+.navs>li{
+    margin: 15px;
+}
+.navs>li>a{
+    color: lightcoral;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'pacifico',cursive;
+}
+.navs>li>a:hover{
+    
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    transition: .5s;
+}
+.main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly; 
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1300px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.buttons{
+    
+    font-size: 30px;
+}
+.translateimage>img{
+    height: 350px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.login{
+    padding: 5px  50px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: 'pacifico',cursive;
+    border: none;
+    background-color: #B8FFF9;  
+}
+.login:hover{
+    background-color: rgba(0, 255, 255, 0.664);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .5s;
+}
+.buttons>p{
+    font-family: 'pacifico', cursive;
+    font-weight: lighter;
+}
+.buttons>p>a{
+    color: lightcoral;
+    text-decoration: none;
+}
+.buttons>p>a:hover{
+    color: lightcyan;
+    text-shadow: 2px 2px 4px #000000;
+    transition: .5s;
+}
+
+
+
+
+
+/* footer section */
+footer{
+    position: absolute;
+    bottom: 20px;
+    width: 100vw;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footericons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footericons>p{
+    margin: 15px;
+}
